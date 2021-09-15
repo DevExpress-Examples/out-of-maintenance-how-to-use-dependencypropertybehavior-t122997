@@ -5,7 +5,7 @@
 <!-- default badges end -->
 
 
-# WPF MVVM Gramework - Bind a ViewModel's Property to a Control's Non Dependency Property
+# WPF MVVM Framework - Bind a ViewModel's Property to a Control's Non Dependency Property
 
 ## Overview
 
