@@ -14,10 +14,10 @@
             <!--The TextBox.SelectedText property is not a dependency property-->
             <TextBox Width="200" Text="Select some text in this box">
                 <dxmvvm:Interaction.Behaviors>
-                    <dxmvvm:DependencyPropertyBehavior PropertyName="SelectedText" EventName="SelectionChanged" Binding="{Binding SelectedTextBoxText, Mode=TwoWay}"/>
+                    <dxmvvm:DependencyPropertyBehavior PropertyName="SelectedText" EventName="SelectionChanged" Binding="{Binding SelectedText, Mode=TwoWay}"/>
                 </dxmvvm:Interaction.Behaviors>
             </TextBox>
-            <TextBox Width="200" Text="{Binding SelectedTextBoxText}" IsReadOnly="True"/>
+            <TextBox Width="200" Text="{Binding SelectedText}" IsReadOnly="True"/>
         </StackPanel>
     </Grid>
 </UserControl>
