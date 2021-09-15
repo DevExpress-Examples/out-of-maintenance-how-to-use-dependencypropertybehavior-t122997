@@ -13,7 +13,7 @@ To bind a ViewModel property to a control's non dependency property, specify the
 
 | Property | Description|
 |-|-|
-[Binding](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.DependencyPropertyBehavior.Binding)| Gets or sets a binding that should be applied to the specified property. This is a dependency property. |
+[Binding](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.DependencyPropertyBehavior.Binding)| Gets or sets a binding that should be applied to the specified property. This is a dependency property.|
 [EventName](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.DependencyPropertyBehavior.EventName)| Gets or sets an event name that the **DependencyPropertyBehavior** processes to update the binding specified in the Binding property. |
 [PropertyName](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.DependencyPropertyBehavior.PropertyName)|Gets or sets a control’s property name that should be bound.|
 <!-- default file list -->
