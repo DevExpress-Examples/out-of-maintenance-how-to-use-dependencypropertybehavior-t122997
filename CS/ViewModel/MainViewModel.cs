@@ -1,9 +1,8 @@
-﻿using DevExpress.Mvvm;
-using DevExpress.Mvvm.DataAnnotations;
+using DevExpress.Mvvm;
 
-namespace Example.ViewModel {
-    [POCOViewModel]
-    public class MainViewModel {
-        public virtual string SelectedText { get; set; }
+namespace Example.ViewModel
+{
+    public class MainViewModel :ViewModelBase {
+        public virtual string SelectedTextBoxText { get; set; }
     }
 }
